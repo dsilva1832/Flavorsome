@@ -1,0 +1,17 @@
+.bg1{
+    background-image: url('https://wallpapers.com/images/hd/food-4k-jx0j7rqea6yv9phh.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.name{
+    margin-top: 200px;
+    font-family: "Fredericka the Great", serif;
+    font-size: 80px;
+}
+/* .fd1{
+    width: auto;
+    height: auto;
+} */

@@ -11,6 +11,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormGroup from '@mui/material/FormGroup';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
+// import AdbIcon from '@mui/icons-material/Abd'
 
 const Header = () => {
 
@@ -44,7 +45,8 @@ const Header = () => {
             label={auth ? 'Logout' : 'Login'}
           />
         </FormGroup> */}
-        <AppBar position="static">
+        <AppBar position="static" sx={{backgroundColor:'black'}}>
+           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <Toolbar>
             <IconButton
               size="large"
@@ -56,7 +58,7 @@ const Header = () => {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Photos
+              Flavorsome
             </Typography>
             {auth && (
               <div>

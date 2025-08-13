@@ -133,7 +133,7 @@ const Menu = () => {
             </div>
           </div>
           <div className="position-relative" style={{cursor:'pointer'}}>
-            <a href='/ordero'>
+            <a href='/order'>
               <img
                 src="https://png.pngtree.com/background/20230611/original/pngtree-steak-on-black-background-on-a-plate-picture-image_3161869.jpg"
                 alt="no img"

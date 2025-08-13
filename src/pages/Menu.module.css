@@ -1,0 +1,16 @@
+.dishes{
+    background-color: #f2aa4cff;
+}
+.dish1:hover{
+    width: 310px;
+    height: 210px;
+    transform: scale(1.05);
+}
+.dish1{
+    width: 300px;
+    height: 200px;
+    transition: all 0.3s ease;
+}
+.btn{
+    color: white !important;
+}

@@ -58,7 +58,7 @@ const Header = () => {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Flavorsome
+              <a href='/' style={{textDecoration:'none', color:'white'}}>Flavorsome</a>
             </Typography>
             {auth && (
               <div>

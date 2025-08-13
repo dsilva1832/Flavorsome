@@ -11,9 +11,13 @@ const Footer = () => {
     <div className='bg'>
       {/* <h3 className='text-center text-light'>Contact Us</h3> */}
       <div className='p-5 row align-items-center justify-content-center'>
-       <div className='col-lg-6'>
+       <div className='col-lg-6 text-center'>
         {/* <div className="col-lg-2"></div> */}
         {/* <div className='col-lg-8 mt-5'> */}
+        <a href='/'>
+          <img src="./public/flavorsome-noBG-white-logo.png" alt="" style={{width:'200px',height:'200px'}}/>
+        </a>
+       
           <h4 className='text-light'>Signup to our Newsletter</h4>
           <TextField id="filled-basic1" label="email" variant="filled" />
           <button type='btn' className='btn btn-primary ms-2 py-3 px-3'>Sign in</button>
@@ -21,7 +25,7 @@ const Footer = () => {
         {/* <div className="col-lg-2"></div> */}
        </div>
 
-       <div className='col-lg-6 icon'>
+       <div className='col-lg-6 icon text-center'>
         {/* <div className="col-lg-2"></div> */}
         {/* <div className='col-lg-8 mt-5'> */}
           <h3 className='text-light'>Follow Us</h3>

@@ -13,6 +13,53 @@ const Menu = () => {
           <div className="position-relative" style={{cursor:'pointer'}}>
             <a href='/order'>
               <img
+                src="https://img.freepik.com/premium-photo/full-rack-bbq-grilled-pork-spare-ribs-marble-board-black-background-top-view_89816-35995.jpg"
+                alt="no img"
+                className={styles.dish1}
+                style={{ borderRadius: "10px" }}
+              />
+            </a>
+            
+            <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
+              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BBQ RIBS</p>
+              <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
+            </div>
+
+          </div>
+          <div className="position-relative" style={{cursor:'pointer'}}>
+            <a href='/order'>
+              <img
+                src="https://www.shutterstock.com/image-photo/chicken-dhum-biriyani-using-jeera-600nw-2047827047.jpg"
+                alt="no img"
+                className={styles.dish1}
+                style={{ borderRadius: "10px" }}
+              />
+            </a>
+            <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
+              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BIRIYANI</p>
+              <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
+            </div>
+          </div>
+          <div className="position-relative" style={{cursor:'pointer'}}>
+            <a href='/order'>
+              <img
+                src="https://img.freepik.com/premium-photo/vibrant-serving-grilled-pork-chops-garnished-with-rosemary-garlic-served-black-plate-with-knife-set-rustic-wooden-background-ar-32-v-61-job-id-ed94fb5752cb4296aeb672600f36609d_1293074-224215.jpg"
+                alt="no img"
+                className={styles.dish1}
+                style={{ borderRadius: "10px" }}
+              />
+            </a>
+            <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
+              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PORK RIBS</p>
+              <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
+            </div>          
+          </div>
+        </div>
+
+        <div className="d-flex align-items-center justify-content-evenly pb-5">
+          <div className="position-relative" style={{cursor:'pointer'}}>
+            <a href='/order'>
+              <img
                 src="https://images.pexels.com/photos/5807020/pexels-photo-5807020.jpeg"
                 alt="no img"
                 className={styles.dish1}
@@ -29,7 +76,7 @@ const Menu = () => {
           <div className="position-relative" style={{cursor:'pointer'}}>
             <a href='/order'>
               <img
-                src="https://static.vecteezy.com/system/resources/thumbnails/023/007/593/small_2x/pizza-veggie-italian-pizza-with-mozzarella-olives-sausage-and-vegetables-on-black-background-ai-generated-photo.jpg"
+                src="https://static.vecteezy.com/system/resources/previews/027/671/391/non_2x/pepperoni-pizza-on-the-wooden-board-with-dark-lighting-and-black-background-food-and-delivery-concept-generative-ai-free-photo.jpg"
                 alt="no img"
                 className={styles.dish1}
                 style={{ borderRadius: "10px" }}
@@ -43,7 +90,7 @@ const Menu = () => {
           <div className="position-relative" style={{cursor:'pointer'}}>
             <a href='/order'>
               <img
-                src="https://img.freepik.com/premium-photo/fresh-tasty-burger-french-fries-ketchup-dark-background_113876-3418.jpg"
+                src="https://img.freepik.com/premium-photo/chicken-burger-street-food-style-dark-background_918874-20.jpg"
                 alt="no img"
                 className={styles.dish1}
                 style={{ borderRadius: "10px" }}

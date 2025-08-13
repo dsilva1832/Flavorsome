@@ -14,7 +14,7 @@ const Landing = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center align-items-center LbgBtn">
-          <a href="#dishes" className="btn btn-outline-light btn-lg mt-3 me-3">Top Dishes</a>
+          <a href="#Ldishes" className="btn btn-outline-light btn-lg mt-3 me-3">Top Dishes</a>
           <Link to="/menu" className="btn btn-outline-light btn-lg mt-3">Today's Menu
           </Link>
         </div>
@@ -33,7 +33,7 @@ const Landing = () => {
               className="Ldish1"
               style={{ borderRadius: "10px" }}
             />
-            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" >Spaghetti</p>
+            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}}>SPAGHETTI</p>
           </div>
           <div className="position-relative" style={{cursor:'pointer'}}>
             <img
@@ -42,7 +42,7 @@ const Landing = () => {
               className="Ldish1"
               style={{ borderRadius: "10px" }}
             />
-            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" >Pizza</p>
+            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}}>PIZZA</p>
           </div>
           <div className="position-relative" style={{cursor:'pointer'}}>
             <img
@@ -51,7 +51,7 @@ const Landing = () => {
               className="Ldish1"
               style={{ borderRadius: "10px" }}
             />
-            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" >Burger</p>
+            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}}>BURGER</p>
           </div>
         </div>
 
@@ -63,7 +63,7 @@ const Landing = () => {
               className="Ldish1"
               style={{ borderRadius: "10px" }}
             />
-            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" >Shawarma</p>
+            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}}>SHAWARMA</p>
           </div>
           <div className="position-relative" style={{cursor:'pointer'}}>
             <img
@@ -72,7 +72,7 @@ const Landing = () => {
               className="Ldish1"
               style={{ borderRadius: "10px" }}
             />
-            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" >Chop Suey</p>
+            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}}>CHOP SUEY</p>
           </div>
           <div className="position-relative" style={{cursor:'pointer'}}>
             <img
@@ -81,7 +81,7 @@ const Landing = () => {
               className="Ldish1"
               style={{ borderRadius: "10px" }}
             />
-            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" >Steak</p>
+            <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}}>STEAK</p>
           </div>
         </div>
 

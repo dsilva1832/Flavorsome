@@ -2,12 +2,13 @@ import React from 'react'
 import Button from '@mui/material/Button';
 import styles from './Menu.module.css'
 
+
 const Menu = () => {
   return (
     <div>
       
       <section className={styles.dishes}>
-        <h2 className="text-center pt-3 pb-5">Today's Menu</h2>
+        <h2 className="text-center pt-3 pb-5 fw-bold" style={{fontFamily: "Baumans, system-ui"}}>Today's Menu</h2>
 
         <div className="d-flex align-items-center justify-content-evenly pb-5">
           <div className="position-relative" style={{cursor:'pointer'}}>
@@ -76,14 +77,14 @@ const Menu = () => {
           <div className="position-relative" style={{cursor:'pointer'}}>
             <a href='/order'>
               <img
-                src="https://static.vecteezy.com/system/resources/previews/027/671/391/non_2x/pepperoni-pizza-on-the-wooden-board-with-dark-lighting-and-black-background-food-and-delivery-concept-generative-ai-free-photo.jpg"
+                src="https://thumbs.dreamstime.com/b/delicious-grilled-assorted-meat-platter-company-spicy-sausages-lamb-ribs-sliced-pork-steak-chicken-fillet-served-wooden-240270245.jpg"
                 alt="no img"
                 className={styles.dish1}
                 style={{ borderRadius: "10px" }}
               />
             </a>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PIZZA</p>
+              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PLATTER</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
           </div>
@@ -100,6 +101,51 @@ const Menu = () => {
               <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BURGER</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>          
+          </div>
+        </div>
+
+        <div className="d-flex align-items-center justify-content-evenly pb-5">
+          <div className="position-relative" style={{cursor:'pointer'}}>
+            <a href='/order'>
+              <img
+                src="https://www.shutterstock.com/image-photo/grilled-spicy-chicken-wings-ketchup-600nw-1678801792.jpg"
+                alt="no img"
+                className={styles.dish1}
+                style={{ borderRadius: "10px" }}
+              />
+            </a>
+            <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
+              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BBQ WINGS</p>
+              <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
+            </div>
+          </div>
+          <div className="position-relative" style={{cursor:'pointer'}}>
+           <a href='/order'>
+              <img
+                src="https://img.freepik.com/premium-photo/chicken-nuggets-sauce-black-plate-dark-background-top-view-overhead_2829-21160.jpg"
+                alt="no img"
+                className={styles.dish1}
+                style={{ borderRadius: "10px" }}
+              />
+           </a>
+            <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
+              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >NUGGETS</p>
+              <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
+            </div>
+          </div>
+          <div className="position-relative" style={{cursor:'pointer'}}>
+            <a href='/order'>
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/027/671/391/non_2x/pepperoni-pizza-on-the-wooden-board-with-dark-lighting-and-black-background-food-and-delivery-concept-generative-ai-free-photo.jpg"
+                alt="no img"
+                className={styles.dish1}
+                style={{ borderRadius: "10px" }}
+              />
+            </a>
+            <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
+              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PIZZA</p>
+              <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
+            </div>
           </div>
         </div>
 

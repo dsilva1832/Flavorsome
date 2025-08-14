@@ -43,10 +43,10 @@ const Order = () => {
 
           {/* <div className="col-6 mt-5 mb-5"> */}
           <div
-            className="card bg-light mt-5 mb-5"
+            className="card rounded-4 bg-light mt-5 mb-5"
             style={{ width: "50vh" }}
           >
-            <h3 className="text-center p-3">Order now</h3>
+            <h3 className="text-center p-3 fw-bold" style={{fontFamily: "Baumans, system-ui"}}>Order now</h3>
             <TextField
               className="mt-2 mx-3 mb-3"
               id="outlined-basic"

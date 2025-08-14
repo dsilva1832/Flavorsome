@@ -10,7 +10,7 @@ const Landing = () => {
           <div className="col-lg-7"></div>
           <div className="col-lg-5 p-5">
             <h3 className="Lname text-light">Flavorsome</h3>
-            <p className="text-light">Flavour, Perfected</p>
+            <p className="Lsname text-light ms-4">Flavour, Perfected</p>
           </div>
         </div>
         <div className="d-flex justify-content-center align-items-center LbgBtn">
@@ -23,7 +23,7 @@ const Landing = () => {
 
       {/* top dishes */}
       <section id="Ldishes">
-        <h2 className="text-center pt-3 pb-5">Our Top Dishes</h2>
+        <h2 className="text-center pt-3 pb-5 fw-bold" style={{fontFamily: "Baumans, system-ui"}}>Our Top Dishes</h2>
 
         <div className="d-flex align-items-center justify-content-evenly pb-5">
           <div className="position-relative" style={{cursor:'pointer'}}>
@@ -84,8 +84,10 @@ const Landing = () => {
             <p className="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white" style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}}>STEAK</p>
           </div>
         </div>
+<div className="text-center ">
+          <a href="/menu" className="btn btn-outline-dark btn-lg mb-4">Order Now</a>
 
-      </section>
+</div>      </section>
     </div>
   );
 };

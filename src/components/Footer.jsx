@@ -5,6 +5,8 @@ import { FaYoutube } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaMobileAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -28,6 +30,13 @@ const Footer = () => {
        <div className='col-lg-6 icon text-center'>
         {/* <div className="col-lg-2"></div> */}
         {/* <div className='col-lg-8 mt-5'> */}
+        <h3>Contact Us</h3>
+              <h5 className=''>
+                <MdOutlineEmail className='fs-4' /> flavorsome@gmail.com
+              </h5>
+              <h5 className='mb-5'> 
+                <FaMobileAlt className='fs-4' />9587411258
+              </h5>
           <h3 className='text-light'>Follow Us</h3>
           <a href="https://www.youtube.com/" target="_blank" className='text-light '><FaYoutube className='me-5 icon1'/></a>
           <a href='https://www.instagram.com/' target='_blank' className='text-light'><FaInstagram className='me-5 icon1'/></a>

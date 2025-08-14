@@ -8,8 +8,12 @@
 }
 .Lname{
     margin-top: 200px;
-    font-family: "Fredericka the Great", serif;
-    font-size: 80px;
+    font-family: "Berkshire Swash", serif;
+    font-size: 100px;
+}
+.Lsname{
+    margin-top: -15px;
+    font-size: 20px;
 }
 .LbgBtn{
     padding-top: 125px;

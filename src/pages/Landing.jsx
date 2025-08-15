@@ -85,7 +85,7 @@ const Landing = () => {
           </div>
         </div>
 <div className="text-center ">
-          <a href="/menu" className="btn btn-outline-dark btn-lg mb-4">Order Now</a>
+          <Link to="/menu" className="btn btn-outline-dark btn-lg mb-4">Order Now</Link>
 
 </div>      </section>
     </div>

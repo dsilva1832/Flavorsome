@@ -17,7 +17,7 @@ const Footer = () => {
         {/* <div className="col-lg-2"></div> */}
         {/* <div className='col-lg-8 mt-5'> */}
         <a href='/'>
-          <img src="./public/flavorsome-noBG-white-logo.png" alt="" style={{width:'200px',height:'200px'}}/>
+          <img src="/flavorsome-noBG-white-logo.png" alt="" style={{width:'200px',height:'200px'}}/>
         </a>
        
           <h4 className='text-light'>Signup to our Newsletter</h4>

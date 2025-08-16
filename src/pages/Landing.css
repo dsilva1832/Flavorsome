@@ -31,3 +31,57 @@
     height: 200px;
     transition: all 0.3s ease;
 }
+.LdishName{
+    font-size: 30px;
+}
+@media screen and (max-width: 992px) {
+    .Ldish1{
+        width: 250px;
+        height: 150px;
+        transition: all 0.3s ease;
+    }
+    .Ldish1:hover{
+        width: 260px;
+        height: 160px;
+        transform: scale(1.05);
+    }
+    .LdishName{
+        margin-bottom: 100px !important;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .Ldish1{
+        width: 170px;
+        height: 120px;
+        transition: all 0.3s ease;
+    }
+    .Ldish1:hover{
+        width: 180px;
+        height: 130px;
+        transform: scale(1.05);
+    }
+    .LdishName{
+        margin-bottom: 100px !important;
+        font-size: 17.7px;
+    }
+}
+@media screen and (max-width: 525px) {
+    .Lname{
+        font-size: 90px;
+    }
+    .Ldish1{
+        width: 140px;
+        height: 110px;
+        transition: all 0.3s ease;
+    }
+    .Ldish1:hover{
+        width: 150px;
+        height: 120px;
+        transform: scale(1.05);
+    }
+    .LdishName{
+        margin-bottom: 100px !important;
+        font-size: 16.5px;
+    }
+}

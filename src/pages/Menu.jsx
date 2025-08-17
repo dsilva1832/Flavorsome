@@ -23,7 +23,7 @@ const Menu = () => {
             </Link>
             
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BBQ RIBS</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BBQ RIBS</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
 
@@ -38,7 +38,7 @@ const Menu = () => {
               />
             </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BIRIYANI</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BIRIYANI</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Menu = () => {
               />
             </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PORK RIBS</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PORK RIBS</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>          
           </div>
@@ -70,7 +70,7 @@ const Menu = () => {
             </Link>
             
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >SPAGHETTI</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >SPAGHETTI</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
 
@@ -85,7 +85,7 @@ const Menu = () => {
               />
             </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PLATTER</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PLATTER</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
           </div>
@@ -99,7 +99,7 @@ const Menu = () => {
               />
             </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BURGER</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BURGER</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>          
           </div>
@@ -116,7 +116,7 @@ const Menu = () => {
               />
             </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BBQ WINGS</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >BBQ WINGS</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Menu = () => {
               />
            </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >NUGGETS</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >NUGGETS</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
           </div>
@@ -144,7 +144,7 @@ const Menu = () => {
               />
             </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PIZZA</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >PIZZA</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
           </div>
@@ -161,7 +161,7 @@ const Menu = () => {
               />
             </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >SHAWARMA</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >SHAWARMA</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
           </div>
@@ -175,7 +175,7 @@ const Menu = () => {
               />
            </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >CHOP SUEY</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >CHOP SUEY</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
           </div>
@@ -189,7 +189,7 @@ const Menu = () => {
               />
             </Link>
             <div className='position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white text-center'>
-              <p className='mb-0' style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >STEAK</p>
+              <p className={`mb-0 ${styles.dishName}`} style={{fontFamily: "Oswald, sans-serif", fontSize:"30px"}} >STEAK</p>
               <Button href="/order" style={{marginTop:'-10px'}} className={styles.btn}>Click to Order</Button>
             </div>
           </div>

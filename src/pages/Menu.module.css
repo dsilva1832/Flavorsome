@@ -14,3 +14,46 @@
 .btn{
     color: white !important;
 }
+@media screen and (max-width: 992px) {
+    .dish1{
+        width: 250px;
+        height: 150px;
+        transition: all 0.3s ease;
+    }
+    .dish1:hover{
+        width: 260px;
+        height: 160px;
+        transform: scale(1.05);
+    }
+    .dishName{
+        margin-bottom: 100px !important;
+        font-size: 24px !important;
+    }
+    .btn{
+        color: white !important;
+        margin-top: -200px !important;
+        font-size: 10px !important;
+    }
+}
+@media screen and (max-width: 780px) {
+    .dish1{
+        width: 170px;
+        height: 120px;
+        transition: all 0.3s ease;
+    }
+    .dish1:hover{
+        width: 180px;
+        height: 130px;
+        transform: scale(1.05);
+    }
+    .dishName{
+        margin-bottom: 100px !important;
+        font-size: 17.7px !important;
+    }
+    .btn{
+        color: white !important;
+        margin-top: -200px !important;
+        font-size: 10px !important;
+    }
+}
+

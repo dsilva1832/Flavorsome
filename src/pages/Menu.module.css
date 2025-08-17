@@ -57,3 +57,27 @@
     }
 }
 
+@media screen and (max-width: 525px) {
+    .name{
+        font-size: 90px;
+    }
+    .dish1{
+        width: 140px;
+        height: 110px;
+        transition: all 0.3s ease;
+    }
+    .dish1:hover{
+        width: 150px;
+        height: 120px;
+        transform: scale(1.05);
+    }
+    .dishName{
+        margin-bottom: 100px !important;
+        font-size: 16.5px !important;
+    }
+    .btn{
+        color: white !important;
+        margin-top: -200px !important;
+        font-size: 10px !important;
+    }
+}

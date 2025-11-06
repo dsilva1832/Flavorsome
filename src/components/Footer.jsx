@@ -46,8 +46,9 @@ const Footer = () => {
         {/* <div className="col-lg-2"></div> */}
        </div>
       </div>
-      <p className='text-center text-light mb-0 mt-5' id="footer">&copy;Flavorsome-August 2025, All Rights Reserved to &reg;Alwin Joseph Dsilva</p>
-      <p className='text-center text-light mb-0 mt-2'>Build with ❤️ using React</p>    
+      <p className='text-center text-light mb-0 mt-5'>Build with ❤️ using React</p>
+      <p className='text-center text-light mb-0 mt-2' id="footer">&copy;Flavorsome-August 2025, All Rights Reserved to &reg;Alwin Joseph Dsilva</p>
+          
     </div>
   )
 }
